@@ -14,6 +14,8 @@
 > Contact desktopapi@counterpath.com for more info about the upgrade program if you to wish try Bria 6. This Github is not intended for selling so please contact us directly.
 
 ---
+This was a modified version from the Counterpath example. Download the files and open "bria_api_js_sample.html".
+
 The Bria Desktop API allows third-party applications to control Bria for Windows and Bria for Mac softphone clients. By leveraging the Desktop API, third-party applications can perform commands such as starting an audio or video call, answering a call or placing a call on hold.
 
 The Bria for Desktop API was originally used by CounterPath in conjunction with a Microsoft Outlook® Add-In, to enable Bria calls to be placed from within the Outlook® application. It has since been “hardened” for commercial use.
