@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<META charset="UTF-8"> 
+		<script src="jquery-3.2.1.slim.js" type="text/javascript"></script>
+		<script src="bria_api_constants.js" type="text/javascript"></script>
+		<script src="bria_api_js_sample.js" type="text/javascript"></script>
+	</HEAD>
+	<BODY>
+		<h1> Bria API JavaScript Sample </h1>
+		<div>
+			<div style="width:1315px">    
+				<fieldset>
+					<legend> WebSocket Connection Status </legend>
+					<div id="ConnectionStatusText">DISCONNECTED</div>
+				</fieldset>
+			</div>
+
+			<br/>
+			
+			<div style="width:100%">     
+				<div id="Column1" style="padding-top:0px; margin-top:0px; float:left; width:388px;">
+
+	
+					<fieldset>
+						<legend> Send Message </legend>
+						<label for="CallTargetTextInput">Enter Message:</label>
+						<textarea style="width:600px;height:300px;" type="text" id="CallTargetTextInput"></textarea>
+						<button onclick="placeCall(); return true;"> Send </button>
+						<br/>
+						<input type="checkbox" id="SuppressMainWindowCheckbox"/>
+						<label for="SuppressMainWindowCheckbox">Keep Bria Window from popping up</label>
+					</fieldset>
+					<br/>	
+				</div>
+								<!-- API Message Logging Output -->
+					<div style="padding-top:450px; margin-top:0px; ">
+						<div>
+							<label style="float:left; width:1228px">API Message Log</label>
+							<button style="float:left;" onclick="clearLog()"> CLEAR LOG </button>
+						</div>
+				
+						<textarea readonly id="APIMessageLog"  cols="166" rows="15"></textarea>	
+					</div>
+				
+							
+			</div>
+					
+			<br/>		
+					
+
+		</div>
+
+	</BODY>
+</HTML>
